@@ -63,6 +63,7 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task1.V8
             this.textBoxCondition_SEA.Location = new System.Drawing.Point(7, 31);
             this.textBoxCondition_SEA.Multiline = true;
             this.textBoxCondition_SEA.Name = "textBoxCondition_SEA";
+            this.textBoxCondition_SEA.ReadOnly = true;
             this.textBoxCondition_SEA.Size = new System.Drawing.Size(783, 232);
             this.textBoxCondition_SEA.TabIndex = 0;
             this.textBoxCondition_SEA.Text = resources.GetString("textBoxCondition_SEA.Text");
