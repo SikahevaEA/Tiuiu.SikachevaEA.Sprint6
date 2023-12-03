@@ -108,6 +108,7 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task0.V6
             this.textBoxPositionWinX_SEA.Name = "textBoxPositionWinX_SEA";
             this.textBoxPositionWinX_SEA.Size = new System.Drawing.Size(187, 31);
             this.textBoxPositionWinX_SEA.TabIndex = 0;
+            //this.textBoxPositionWinX_SEA.TextChanged += new System.EventHandler(this.textBoxPositionWinX_SEA_TextChanged);
             this.textBoxPositionWinX_SEA.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxPositionWinX_SEA_KeyPress);
             // 
             // groupBoxDataOutput_SEA
