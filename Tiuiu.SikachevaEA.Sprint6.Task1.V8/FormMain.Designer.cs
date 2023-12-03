@@ -97,6 +97,7 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task1.V8
             this.textBoxResult_SEA.ReadOnly = true;
             this.textBoxResult_SEA.Size = new System.Drawing.Size(335, 331);
             this.textBoxResult_SEA.TabIndex = 0;
+            //this.textBoxResult_SEA.TextChanged += new System.EventHandler(this.textBoxResult_SEA_TextChanged);
             // 
             // groupBoxDataInput_SEA
             // 

@@ -30,55 +30,55 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task2.V11
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMainTask2_SEA));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.textBoxCondition_SEA = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            this.groupBoxTask_SEA = new System.Windows.Forms.GroupBox();
+            this.textBoxCondition_SEA = new System.Windows.Forms.TextBox();
             this.groupBoxGrid_SEA = new System.Windows.Forms.GroupBox();
-            this.chartData_SEA = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.labelResult_SEA = new System.Windows.Forms.Label();
             this.dataGridViewResult_SEA = new System.Windows.Forms.DataGridView();
             this.VarX = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnFunction = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.chartData_SEA = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.labelResult_SEA = new System.Windows.Forms.Label();
             this.buttonHelp_SEA = new System.Windows.Forms.Button();
             this.buttonDone_SEA = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBoxDataInput_SEA = new System.Windows.Forms.GroupBox();
-            this.textBoxStart_SEA = new System.Windows.Forms.TextBox();
-            this.textBoxEnd_SEA = new System.Windows.Forms.TextBox();
-            this.labelStart_SEA = new System.Windows.Forms.Label();
             this.labelEnd_SEA = new System.Windows.Forms.Label();
+            this.labelStart_SEA = new System.Windows.Forms.Label();
+            this.textBoxEnd_SEA = new System.Windows.Forms.TextBox();
+            this.textBoxStart_SEA = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBoxCondition_SEA.SuspendLayout();
+            this.groupBoxTask_SEA.SuspendLayout();
             this.groupBoxGrid_SEA.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chartData_SEA)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult_SEA)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartData_SEA)).BeginInit();
             this.groupBoxDataInput_SEA.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
+            // groupBoxTask_SEA
+            // 
+            this.groupBoxTask_SEA.Controls.Add(this.textBoxCondition_SEA);
+            this.groupBoxTask_SEA.Location = new System.Drawing.Point(13, 13);
+            this.groupBoxTask_SEA.Name = "groupBoxTask_SEA";
+            this.groupBoxTask_SEA.Size = new System.Drawing.Size(562, 325);
+            this.groupBoxTask_SEA.TabIndex = 0;
+            this.groupBoxTask_SEA.TabStop = false;
+            this.groupBoxTask_SEA.Text = "Условие";
+            // 
             // textBoxCondition_SEA
             // 
-            this.textBoxCondition_SEA.Controls.Add(this.textBox1);
-            this.textBoxCondition_SEA.Location = new System.Drawing.Point(13, 13);
+            this.textBoxCondition_SEA.Location = new System.Drawing.Point(7, 31);
+            this.textBoxCondition_SEA.Multiline = true;
             this.textBoxCondition_SEA.Name = "textBoxCondition_SEA";
-            this.textBoxCondition_SEA.Size = new System.Drawing.Size(562, 325);
+            this.textBoxCondition_SEA.ReadOnly = true;
+            this.textBoxCondition_SEA.Size = new System.Drawing.Size(544, 288);
             this.textBoxCondition_SEA.TabIndex = 0;
-            this.textBoxCondition_SEA.TabStop = false;
-            this.textBoxCondition_SEA.Text = "Условие";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(7, 31);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(544, 288);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = resources.GetString("textBox1.Text");
+            this.textBoxCondition_SEA.Text = resources.GetString("textBoxCondition_SEA.Text");
             // 
             // groupBoxGrid_SEA
             // 
@@ -92,41 +92,6 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task2.V11
             this.groupBoxGrid_SEA.TabStop = false;
             this.groupBoxGrid_SEA.Text = "Вывод данных";
             // 
-            // chartData_SEA
-            // 
-            this.chartData_SEA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.chartData_SEA.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.HorizontalCenter;
-            this.chartData_SEA.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.chartData_SEA.BorderlineColor = System.Drawing.Color.WhiteSmoke;
-            chartArea1.Name = "ChartArea1";
-            this.chartData_SEA.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartData_SEA.Legends.Add(legend1);
-            this.chartData_SEA.Location = new System.Drawing.Point(206, 45);
-            this.chartData_SEA.Name = "chartData_SEA";
-            this.chartData_SEA.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
-            series1.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center;
-            series1.BackImageWrapMode = System.Windows.Forms.DataVisualization.Charting.ChartImageWrapMode.TileFlipX;
-            series1.BorderWidth = 2;
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.IsXValueIndexed = true;
-            series1.Legend = "Legend1";
-            series1.Name = "Legent1 - Empty";
-            this.chartData_SEA.Series.Add(series1);
-            this.chartData_SEA.Size = new System.Drawing.Size(689, 462);
-            this.chartData_SEA.TabIndex = 2;
-            this.chartData_SEA.Text = "График функции F(x)";
-            // 
-            // labelResult_SEA
-            // 
-            this.labelResult_SEA.AutoSize = true;
-            this.labelResult_SEA.Location = new System.Drawing.Point(21, 26);
-            this.labelResult_SEA.Name = "labelResult_SEA";
-            this.labelResult_SEA.Size = new System.Drawing.Size(121, 25);
-            this.labelResult_SEA.TabIndex = 1;
-            this.labelResult_SEA.Text = "Результат:";
-            // 
             // dataGridViewResult_SEA
             // 
             this.dataGridViewResult_SEA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -136,6 +101,7 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task2.V11
             this.dataGridViewResult_SEA.GridColor = System.Drawing.Color.White;
             this.dataGridViewResult_SEA.Location = new System.Drawing.Point(6, 54);
             this.dataGridViewResult_SEA.Name = "dataGridViewResult_SEA";
+            this.dataGridViewResult_SEA.ReadOnly = true;
             this.dataGridViewResult_SEA.RowHeadersVisible = false;
             this.dataGridViewResult_SEA.RowHeadersWidth = 82;
             this.dataGridViewResult_SEA.RowTemplate.Height = 33;
@@ -155,6 +121,41 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task2.V11
             this.ColumnFunction.MinimumWidth = 10;
             this.ColumnFunction.Name = "ColumnFunction";
             this.ColumnFunction.Width = 50;
+            // 
+            // chartData_SEA
+            // 
+            this.chartData_SEA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.chartData_SEA.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.HorizontalCenter;
+            this.chartData_SEA.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.chartData_SEA.BorderlineColor = System.Drawing.Color.WhiteSmoke;
+            chartArea3.Name = "ChartArea1";
+            this.chartData_SEA.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chartData_SEA.Legends.Add(legend3);
+            this.chartData_SEA.Location = new System.Drawing.Point(206, 45);
+            this.chartData_SEA.Name = "chartData_SEA";
+            this.chartData_SEA.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
+            series3.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center;
+            series3.BackImageWrapMode = System.Windows.Forms.DataVisualization.Charting.ChartImageWrapMode.TileFlipX;
+            series3.BorderWidth = 2;
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series3.IsXValueIndexed = true;
+            series3.Legend = "Legend1";
+            series3.Name = "Legent1 - Empty";
+            this.chartData_SEA.Series.Add(series3);
+            this.chartData_SEA.Size = new System.Drawing.Size(689, 462);
+            this.chartData_SEA.TabIndex = 2;
+            this.chartData_SEA.Text = "График функции F(x)";
+            // 
+            // labelResult_SEA
+            // 
+            this.labelResult_SEA.AutoSize = true;
+            this.labelResult_SEA.Location = new System.Drawing.Point(21, 26);
+            this.labelResult_SEA.Name = "labelResult_SEA";
+            this.labelResult_SEA.Size = new System.Drawing.Size(121, 25);
+            this.labelResult_SEA.TabIndex = 1;
+            this.labelResult_SEA.Text = "Результат:";
             // 
             // buttonHelp_SEA
             // 
@@ -219,19 +220,14 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task2.V11
             this.groupBoxDataInput_SEA.TabStop = false;
             this.groupBoxDataInput_SEA.Text = "Ввод данных";
             // 
-            // textBoxStart_SEA
+            // labelEnd_SEA
             // 
-            this.textBoxStart_SEA.Location = new System.Drawing.Point(0, 69);
-            this.textBoxStart_SEA.Name = "textBoxStart_SEA";
-            this.textBoxStart_SEA.Size = new System.Drawing.Size(133, 31);
-            this.textBoxStart_SEA.TabIndex = 0;
-            // 
-            // textBoxEnd_SEA
-            // 
-            this.textBoxEnd_SEA.Location = new System.Drawing.Point(148, 69);
-            this.textBoxEnd_SEA.Name = "textBoxEnd_SEA";
-            this.textBoxEnd_SEA.Size = new System.Drawing.Size(118, 31);
-            this.textBoxEnd_SEA.TabIndex = 1;
+            this.labelEnd_SEA.AutoSize = true;
+            this.labelEnd_SEA.Location = new System.Drawing.Point(143, 31);
+            this.labelEnd_SEA.Name = "labelEnd_SEA";
+            this.labelEnd_SEA.Size = new System.Drawing.Size(129, 25);
+            this.labelEnd_SEA.TabIndex = 3;
+            this.labelEnd_SEA.Text = "Конец шага";
             // 
             // labelStart_SEA
             // 
@@ -242,14 +238,19 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task2.V11
             this.labelStart_SEA.TabIndex = 2;
             this.labelStart_SEA.Text = "Старт шага";
             // 
-            // labelEnd_SEA
+            // textBoxEnd_SEA
             // 
-            this.labelEnd_SEA.AutoSize = true;
-            this.labelEnd_SEA.Location = new System.Drawing.Point(143, 31);
-            this.labelEnd_SEA.Name = "labelEnd_SEA";
-            this.labelEnd_SEA.Size = new System.Drawing.Size(129, 25);
-            this.labelEnd_SEA.TabIndex = 3;
-            this.labelEnd_SEA.Text = "Конец шага";
+            this.textBoxEnd_SEA.Location = new System.Drawing.Point(148, 69);
+            this.textBoxEnd_SEA.Name = "textBoxEnd_SEA";
+            this.textBoxEnd_SEA.Size = new System.Drawing.Size(118, 31);
+            this.textBoxEnd_SEA.TabIndex = 1;
+            // 
+            // textBoxStart_SEA
+            // 
+            this.textBoxStart_SEA.Location = new System.Drawing.Point(0, 69);
+            this.textBoxStart_SEA.Name = "textBoxStart_SEA";
+            this.textBoxStart_SEA.Size = new System.Drawing.Size(133, 31);
+            this.textBoxStart_SEA.TabIndex = 0;
             // 
             // groupBox2
             // 
@@ -273,17 +274,17 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task2.V11
             this.Controls.Add(this.buttonHelp_SEA);
             this.Controls.Add(this.groupBoxGrid_SEA);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.textBoxCondition_SEA);
+            this.Controls.Add(this.groupBoxTask_SEA);
             this.MaximizeBox = false;
             this.Name = "FormMainTask2_SEA";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 || Таск 2 || Вариант 11 || Сикачёва Е. А.";
-            this.textBoxCondition_SEA.ResumeLayout(false);
-            this.textBoxCondition_SEA.PerformLayout();
+            this.groupBoxTask_SEA.ResumeLayout(false);
+            this.groupBoxTask_SEA.PerformLayout();
             this.groupBoxGrid_SEA.ResumeLayout(false);
             this.groupBoxGrid_SEA.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chartData_SEA)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult_SEA)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartData_SEA)).EndInit();
             this.groupBoxDataInput_SEA.ResumeLayout(false);
             this.groupBoxDataInput_SEA.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -294,8 +295,8 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task2.V11
 
         #endregion
 
-        private System.Windows.Forms.GroupBox textBoxCondition_SEA;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.GroupBox groupBoxTask_SEA;
+        private System.Windows.Forms.TextBox textBoxCondition_SEA;
         private System.Windows.Forms.GroupBox groupBoxGrid_SEA;
         private System.Windows.Forms.DataGridView dataGridViewResult_SEA;
         private System.Windows.Forms.Button buttonHelp_SEA;

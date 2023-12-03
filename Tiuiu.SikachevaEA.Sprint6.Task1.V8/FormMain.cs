@@ -58,7 +58,9 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task1.V8
 
         private void buttonHelp_SEA_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 0 выполнила студентка группы РПСб-23-1 Сикачева Елизавета Александровна", "Сообщение");
+            MessageBox.Show("Таск 1 выполнила студентка группы РПСб-23-1 Сикачева Елизавета Александровна", "Сообщение");
         }
+
+        
     }
 }

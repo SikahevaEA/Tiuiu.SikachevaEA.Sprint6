@@ -117,13 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBoxCondition_SEA.Text" xml:space="preserve">
-    <value>Написать прогорамму, которая выводит таблицу значений функции: F(x) = cos(x) / (x + 1) - cos(x) * 1,3 + 3 * x (произвести табулирование) на заданном диапазоне. Поизвести проверку деления на 0. При делении на ноль вернуть значение 0.</value>
-  </data>
-  <metadata name="VarX.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ColumnFunction.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>
