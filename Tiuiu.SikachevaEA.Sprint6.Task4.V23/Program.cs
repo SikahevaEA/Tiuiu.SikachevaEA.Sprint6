@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Tiuiu.SikachevaEA.Sprint6.Task3.V4.Lib;
 
-namespace Tiuiu.SikachevaEA.Sprint6.Task3.V4
+namespace Tiuiu.SikachevaEA.Sprint6.Task4.V23
 {
     static class Program
     {
@@ -17,7 +16,7 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task3.V4
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMainTask3_SEA());
+            Application.Run(new FormMain_SEA());
         }
     }
 }

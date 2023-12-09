@@ -12,8 +12,7 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task3.V4.Lib
         public int[,] Calculate(int[,] matrix)
         {
             int rows = matrix.GetUpperBound(0) + 1;
-            int columns = matrix.GetUpperBound(1) + 1;
-
+            int columns = matrix.Length / rows;
 
             for (int i = 0; i < rows; i++)
             {
@@ -23,6 +22,7 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task3.V4.Lib
                     {
                         matrix[1, j] = 0;
                     }
+
                 }
             }
             return matrix;

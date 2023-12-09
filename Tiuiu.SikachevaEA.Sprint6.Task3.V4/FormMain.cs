@@ -19,17 +19,16 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task3.V4
         }
 
         DataService ds = new DataService();
-
-        int[,] mtrx = new int[5, 5] { {-17, -6, 10, 5, 3},
-                                      {-10, -14, 10, -7, -3},
-                                      {-19, 9, 8, -17, -9},
-                                      {-19, -5, -9, -18, 14},
-                                      {17, 12, 11, 12, 2} };
+        int[,] matrix = new int[5, 5] { {  -14,-7,18,12,-20 },
+                                         { -2,-15,-19,-19,-3 },
+                                         { -18,-5,-10,14,-17 },
+                                         { -1,2,-10,0,11 },
+                                         { 6,-18,0,19,16 } };
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            int rows = mtrx.GetUpperBound(0) + 1;
-            int columns = mtrx.Length / rows;
+            int rows = matrix.GetUpperBound(0) + 1;
+            int columns = matrix.Length / rows;
 
             dataGridViewMatrix_SEA.ColumnCount = columns;
             dataGridViewMatrix_SEA.RowCount = rows;
@@ -38,22 +37,21 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task3.V4
             {
                 dataGridViewMatrix_SEA.Columns[i].Width = 25;
             }
-
-            for (int i = 0; i < columns; i++)
+            for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < columns; j++)
                 {
-                    dataGridViewMatrix_SEA.Rows[i].Cells[j].Value = Convert.ToString(mtrx[i, j]);
+                    dataGridViewMatrix_SEA.Rows[i].Cells[j].Value = Convert.ToString(matrix[i, j]);
                 }
             }
         }
+    
 
         private void buttonDone_SEA_Click(object sender, EventArgs e)
         {
-            var sorted_matrix = ds.Calculate(mtrx);
-
-            int rows = mtrx.GetUpperBound(0) + 1;
-            int columns = mtrx.Length / rows;
+            int[,] mtrx = ds.Calculate(matrix);
+            int rows = matrix.GetUpperBound(0) + 1;
+            int columns = matrix.Length / rows;
 
             dataGridViewMatrixResult_SEA.ColumnCount = columns;
             dataGridViewMatrixResult_SEA.RowCount = rows;
@@ -62,12 +60,11 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task3.V4
             {
                 dataGridViewMatrixResult_SEA.Columns[i].Width = 25;
             }
-
-            for (int i = 0; i < columns; i++)
+            for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < columns; j++)
                 {
-                    dataGridViewMatrixResult_SEA.Rows[i].Cells[j].Value = Convert.ToString(sorted_matrix[i, j]);
+                    dataGridViewMatrixResult_SEA.Rows[i].Cells[j].Value = Convert.ToString(mtrx[i, j]);
                 }
             }
         }
