@@ -93,7 +93,7 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task7.V25
 
         private void buttonSeve_SEA_Click(object sender, EventArgs e)
         {
-            saveFileDialogMatrix_SEA.FileName = "OutPutFileTask7.V25.csv";
+            saveFileDialogMatrix_SEA.FileName = "OutPutFileTask7.csv";
             saveFileDialogMatrix_SEA.InitialDirectory = Directory.GetCurrentDirectory();
             saveFileDialogMatrix_SEA.ShowDialog();
 

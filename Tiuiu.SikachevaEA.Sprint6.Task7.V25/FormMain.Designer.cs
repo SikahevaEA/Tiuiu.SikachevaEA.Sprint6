@@ -59,6 +59,7 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task7.V25
             this.buttonOpen_SEA.Name = "buttonOpen_SEA";
             this.buttonOpen_SEA.Size = new System.Drawing.Size(134, 111);
             this.buttonOpen_SEA.TabIndex = 0;
+            this.toolTipButton_SEA.SetToolTip(this.buttonOpen_SEA, "Открыть файл\r\nВыберите нужный файл для обработки");
             this.buttonOpen_SEA.UseVisualStyleBackColor = false;
             this.buttonOpen_SEA.Click += new System.EventHandler(this.buttonOpen_SEA_Click);
             this.buttonOpen_SEA.MouseEnter += new System.EventHandler(this.buttonOpen_SEA_MouseEnter);
@@ -71,6 +72,7 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task7.V25
             this.buttonDone_SEA.Name = "buttonDone_SEA";
             this.buttonDone_SEA.Size = new System.Drawing.Size(160, 112);
             this.buttonDone_SEA.TabIndex = 1;
+            this.toolTipButton_SEA.SetToolTip(this.buttonDone_SEA, "Изменяет в седьмом столбце матрицы элементы кратные 5 на 2 ");
             this.buttonDone_SEA.UseVisualStyleBackColor = false;
             this.buttonDone_SEA.Click += new System.EventHandler(this.buttonDone_SEA_Click);
             this.buttonDone_SEA.MouseEnter += new System.EventHandler(this.buttonDone_SEA_MouseEnter);
@@ -83,6 +85,7 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task7.V25
             this.buttonSeve_SEA.Name = "buttonSeve_SEA";
             this.buttonSeve_SEA.Size = new System.Drawing.Size(174, 112);
             this.buttonSeve_SEA.TabIndex = 2;
+            this.toolTipButton_SEA.SetToolTip(this.buttonSeve_SEA, "Сохраняет результат в файл OutPutFileTask7");
             this.buttonSeve_SEA.UseVisualStyleBackColor = false;
             this.buttonSeve_SEA.Click += new System.EventHandler(this.buttonSeve_SEA_Click);
             this.buttonSeve_SEA.MouseEnter += new System.EventHandler(this.buttonSeve_SEA_MouseEnter);
