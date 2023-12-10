@@ -30,26 +30,26 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task5.V17
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.textBoxTask_SEA = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBoxTask5_SEA = new System.Windows.Forms.TextBox();
             this.buttonDone_SEA = new System.Windows.Forms.Button();
             this.buttonSave_SEA = new System.Windows.Forms.Button();
             this.buttonHelp_SEA = new System.Windows.Forms.Button();
             this.groupBoxDataOutPut_SEA = new System.Windows.Forms.GroupBox();
-            this.chartFunction_SEA = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.dataGridViewResult_SEA = new System.Windows.Forms.DataGridView();
+            this.chartFunction_SEA = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.textBoxTask_SEA.SuspendLayout();
             this.groupBoxDataOutPut_SEA.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chartFunction_SEA)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult_SEA)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartFunction_SEA)).BeginInit();
             this.SuspendLayout();
             // 
             // textBoxTask_SEA
             // 
-            this.textBoxTask_SEA.Controls.Add(this.textBox4);
+            this.textBoxTask_SEA.Controls.Add(this.textBoxTask5_SEA);
             this.textBoxTask_SEA.Location = new System.Drawing.Point(12, 12);
             this.textBoxTask_SEA.Name = "textBoxTask_SEA";
             this.textBoxTask_SEA.Size = new System.Drawing.Size(900, 163);
@@ -57,16 +57,16 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task5.V17
             this.textBoxTask_SEA.TabStop = false;
             this.textBoxTask_SEA.Text = "Условие";
             // 
-            // textBox4
+            // textBoxTask5_SEA
             // 
-            this.textBox4.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.textBox4.Location = new System.Drawing.Point(13, 25);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(887, 132);
-            this.textBox4.TabIndex = 0;
-            this.textBox4.Text = resources.GetString("textBox4.Text");
+            this.textBoxTask5_SEA.ImeMode = System.Windows.Forms.ImeMode.Off;
+            this.textBoxTask5_SEA.Location = new System.Drawing.Point(13, 25);
+            this.textBoxTask5_SEA.Multiline = true;
+            this.textBoxTask5_SEA.Name = "textBoxTask5_SEA";
+            this.textBoxTask5_SEA.ReadOnly = true;
+            this.textBoxTask5_SEA.Size = new System.Drawing.Size(887, 132);
+            this.textBoxTask5_SEA.TabIndex = 0;
+            this.textBoxTask5_SEA.Text = resources.GetString("textBoxTask5_SEA.Text");
             // 
             // buttonDone_SEA
             // 
@@ -112,23 +112,6 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task5.V17
             this.groupBoxDataOutPut_SEA.TabStop = false;
             this.groupBoxDataOutPut_SEA.Text = "Вывод данных";
             // 
-            // chartFunction_SEA
-            // 
-            chartArea7.Name = "ChartArea1";
-            this.chartFunction_SEA.ChartAreas.Add(chartArea7);
-            legend7.Name = "Legend1";
-            this.chartFunction_SEA.Legends.Add(legend7);
-            this.chartFunction_SEA.Location = new System.Drawing.Point(429, 22);
-            this.chartFunction_SEA.Name = "chartFunction_SEA";
-            this.chartFunction_SEA.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
-            series7.ChartArea = "ChartArea1";
-            series7.Legend = "Legend1";
-            series7.Name = "Series1";
-            this.chartFunction_SEA.Series.Add(series7);
-            this.chartFunction_SEA.Size = new System.Drawing.Size(1099, 851);
-            this.chartFunction_SEA.TabIndex = 1;
-            this.chartFunction_SEA.Text = "chart1";
-            // 
             // dataGridViewResult_SEA
             // 
             this.dataGridViewResult_SEA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -138,6 +121,23 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task5.V17
             this.dataGridViewResult_SEA.RowTemplate.Height = 33;
             this.dataGridViewResult_SEA.Size = new System.Drawing.Size(410, 833);
             this.dataGridViewResult_SEA.TabIndex = 2;
+            // 
+            // chartFunction_SEA
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chartFunction_SEA.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartFunction_SEA.Legends.Add(legend1);
+            this.chartFunction_SEA.Location = new System.Drawing.Point(429, 22);
+            this.chartFunction_SEA.Name = "chartFunction_SEA";
+            this.chartFunction_SEA.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartFunction_SEA.Series.Add(series1);
+            this.chartFunction_SEA.Size = new System.Drawing.Size(1099, 851);
+            this.chartFunction_SEA.TabIndex = 1;
+            this.chartFunction_SEA.Text = "chart1";
             // 
             // Form1
             // 
@@ -158,8 +158,8 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task5.V17
             this.textBoxTask_SEA.ResumeLayout(false);
             this.textBoxTask_SEA.PerformLayout();
             this.groupBoxDataOutPut_SEA.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chartFunction_SEA)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult_SEA)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartFunction_SEA)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -167,7 +167,7 @@ namespace Tiuiu.SikachevaEA.Sprint6.Task5.V17
         #endregion
 
         private System.Windows.Forms.GroupBox textBoxTask_SEA;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxTask5_SEA;
         private System.Windows.Forms.Button buttonDone_SEA;
         private System.Windows.Forms.Button buttonSave_SEA;
         private System.Windows.Forms.Button buttonHelp_SEA;

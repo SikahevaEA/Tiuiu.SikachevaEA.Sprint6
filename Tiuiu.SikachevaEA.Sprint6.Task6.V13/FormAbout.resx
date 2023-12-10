@@ -117,9 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBoxTask5_SEA.Text" xml:space="preserve">
-    <value>Прочитать данные из файла InPutFileTask5V17.txt. Вывести в dataGridView. 
-Вывести все отрицательные числа. Построить диаграмму по этим значениям.
-У вещественных значений округлить до трёх знаков после запятой.</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Разработчик: Сикачёва Е. А.
+группа РПСб-23-1
+
+Программа разработана в рамках изучения c#
+
+Тюменский индустриальный университет (с) 2023
+Высшая школа цифровых технологий (с) 2023
+
+Внутреннее имя: Tiuiu.SikachevaEA.Sprint6.Task6.V13</value>
   </data>
 </root>
